@@ -139,3 +139,77 @@ document.getElementById("child8").addEventListener('click', () => {
 document.getElementById("child9").addEventListener('click', () => {
     window.open("https://www.jiosaavn.com/s/playlist/phulki_user/Now_Playing_Pop/IQO11xk800E_", "_blank");
 })
+
+
+
+
+document.getElementById("s1").addEventListener('click', () => {
+    audioElement.src = "songs/1.mp3";
+    songIndex=0;
+    masterSongName.innerText = songs[0].songName;
+    audioElement.currentTime = 0;
+    audioElement.play();
+    masterPlay.classList.remove('fa-play-circle');
+    masterPlay.classList.add('fa-pause-circle');
+    gif.style.opacity = 1;
+})
+document.getElementById("s2").addEventListener('click', () => {
+    audioElement.src = "songs/2.mp3";
+    songIndex=1;
+    masterSongName.innerText = songs[1].songName;
+    audioElement.currentTime = 0;
+    audioElement.play();
+    masterPlay.classList.remove('fa-play-circle');
+    masterPlay.classList.add('fa-pause-circle');
+    gif.style.opacity = 1;
+})
+document.getElementById("s3").addEventListener('click', () => {
+    audioElement.src = "songs/3.mp3";
+    songIndex=2;
+    masterSongName.innerText = songs[2].songName;
+    audioElement.currentTime = 0;
+    audioElement.play();
+    masterPlay.classList.remove('fa-play-circle');
+    masterPlay.classList.add('fa-pause-circle');
+    gif.style.opacity = 1;
+})
+document.getElementById("s4").addEventListener('click', () => {
+    audioElement.src = "songs/4.mp3";
+    songIndex=3;
+    masterSongName.innerText = songs[3].songName;
+    audioElement.currentTime = 0;
+    audioElement.play();
+    masterPlay.classList.remove('fa-play-circle');
+    masterPlay.classList.add('fa-pause-circle');
+    gif.style.opacity = 1;
+})
+document.getElementById("s5").addEventListener('click', () => {
+    audioElement.src = "songs/5.mp3";
+    songIndex=4;
+    masterSongName.innerText = songs[4].songName;
+    audioElement.currentTime = 0;
+    audioElement.play();
+    masterPlay.classList.remove('fa-play-circle');
+    masterPlay.classList.add('fa-pause-circle');
+    gif.style.opacity = 1;
+})
+document.getElementById("s6").addEventListener('click', () => {
+    audioElement.src = "songs/6.mp3";
+    songIndex=5;
+    masterSongName.innerText = songs[5].songName;
+    audioElement.currentTime = 0;
+    audioElement.play();
+    masterPlay.classList.remove('fa-play-circle');
+    masterPlay.classList.add('fa-pause-circle');
+    gif.style.opacity = 1;
+})
+document.getElementById("s7").addEventListener('click', () => {
+    audioElement.src = "songs/7.mp3";
+    songIndex=6;
+    masterSongName.innerText = songs[6].songName;
+    audioElement.currentTime = 0;
+    audioElement.play();
+    masterPlay.classList.remove('fa-play-circle');
+    masterPlay.classList.add('fa-pause-circle');
+    gif.style.opacity = 1;
+})
