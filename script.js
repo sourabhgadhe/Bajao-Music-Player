@@ -213,3 +213,23 @@ document.getElementById("s7").addEventListener('click', () => {
     masterPlay.classList.add('fa-pause-circle');
     gif.style.opacity = 1;
 })
+
+document.body.onkeyup = function(e){
+    if(e.key==" "|| e.key=="Space")
+    {
+        if(gif.style.opacity == 1)
+        {
+            gif.style.opacity=0;
+            audioElement.pause();
+            masterPlay.classList.add('fa-play-circle');
+            masterPlay.classList.remove('fa-pause-circle');
+        }
+
+        else{
+            gif.style.opacity=1;
+            audioElement.play();
+            masterPlay.classList.remove('fa-play-circle');
+            masterPlay.classList.add('fa-pause-circle');
+        }
+    }
+}
